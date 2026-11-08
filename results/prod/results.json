@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "team_name": "Earth 616",
+  "model": {
+    "mode": "external_api",
+    "name": "gpt-6.1-sol"
+  },
+  "results": [
+    {
+      "conversation_id": "p2-ru-001",
+      "status": "error",
+      "criteria": [],
+      "score": null,
+      "error": "Нужна ручная проверка: c04"
+    },
+    {
+      "conversation_id": "p2-ru-002",
+      "status": "error",
+      "criteria": [],
+      "score": null,
+      "error": "Нужна ручная проверка: c04"
+    },
+    {
+      "conversation_id": "p2-ru-003",
+      "status": "error",
+      "criteria": [],
+      "score": null,
+      "error": "Нужна ручная проверка: c04"
+    },
+    {
+      "conversation_id": "p2-ru-004",
+      "status": "error",
+      "criteria": [],
+      "score": null,
+      "error": "Нужна ручная проверка: c04"
+    },
+    {
+      "conversation_id": "p2-kz-001",
+      "status": "error",
+      "criteria": [],
+      "score": null,
+      "error": "Нужна ручная проверка: c04"
+    },
+    {
+      "conversation_id": "p2-kz-002",
+      "status": "error",
+      "criteria": [],
+      "score": null,
+      "error": "Нужна ручная проверка: c04"
+    },
+    {
+      "conversation_id": "p2-kz-003",
+      "status": "error",
+      "criteria": [],
+      "score": null,
+      "error": "Нужна ручная проверка: c04"
+    },
+    {
+      "conversation_id": "p2-kz-004",
+      "status": "ok",
+      "criteria": [
+        {
+          "criterion_id": "contact",
+          "value": true,
+          "rationale": "В первом ответе оператор поздоровалась на казахском языке клиента и представилась.",
+          "evidence_turns": [
+            10
+          ]
+        },
+        {
+          "criterion_id": "discovery",
+          "value": true,
+          "rationale": "Содержание запроса ещё не было известно. Оператор предложила клиенту изложить вопрос, не переходя к преждевременной консультации.",
+          "evidence_turns": [
+            10
+          ]
+        },
+        {
+          "criterion_id": "identification",
+          "value": null,
+          "rationale": "В операторском участке не возникло запроса, требующего проверки личности: оператор только предложила изложить вопрос.",
+          "evidence_turns": [
+            10
+          ]
+        },
+        {
+          "criterion_id": "consultation",
+          "value": null,
+          "rationale": "Оператор пригласила клиента задать вопрос, но клиент вышел до его формулирования.",
+          "evidence_turns": [
+            10
+          ]
+        },
+        {
+          "criterion_id": "empathy",
+          "value": true,
+          "rationale": "Оператор вежливо поприветствовала клиента и предложила помощь. Выраженного недовольства или конкретной проблемы, требующей отдельной эмпатической реакции, не было.",
+          "evidence_turns": [
+            10
+          ]
+        },
+        {
+          "criterion_id": "dialogue",
+          "value": 10,
+          "rationale": "Письменный ответ ясен и связен: приветствие, представление и приглашение изложить вопрос. Оператор не вводила ожидание; заметных сбоев в доступном участке нет.",
+          "evidence_turns": [
+            10
+          ]
+        },
+        {
+          "criterion_id": "closure",
+          "value": null,
+          "rationale": "Клиент вышел после приглашения задать вопрос, до возможности содержательно завершить разговор. Выход подтверждён системным событием m0011, а не только окончанием транскрипта.",
+          "evidence_turns": [
+            10
+          ]
+        },
+        {
+          "criterion_id": "critical",
+          "value": false,
+          "rationale": "Весь операторский участок проверен: оскорблений, предложения платных услуг в обход компании и раскрытия конфиденциальной информации не выявлено.",
+          "evidence_turns": [
+            10
+          ]
+        }
+      ],
+      "score": {
+        "final_score": 100.0,
+        "critical_flag": false
+      }
+    },
+    {
+      "conversation_id": "p2-en-001",
+      "status": "error",
+      "criteria": [],
+      "score": null,
+      "error": "Нужна ручная проверка: c04"
+    },
+    {
+      "conversation_id": "p2-en-002",
+      "status": "error",
+      "criteria": [],
+      "score": null,
+      "error": "Нужна ручная проверка: c04"
+    }
+  ]
+}

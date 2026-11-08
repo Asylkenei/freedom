@@ -1,0 +1,49 @@
+{
+  "conversation_id": "synthetic-example-en",
+  "language": "EN",
+  "channel": "agent chat",
+  "audio_url": null,
+  "messages": [
+    {
+      "speaker": "operator",
+      "timestamp": "00:01",
+      "text": "Hello.",
+      "message_id": "m0001"
+    },
+    {
+      "speaker": "client",
+      "timestamp": "00:02",
+      "text": "Thank you.",
+      "message_id": "m0002"
+    },
+    {
+      "speaker": "operator",
+      "timestamp": "00:03",
+      "text": "Anything else? Goodbye.",
+      "message_id": "m0003"
+    }
+  ],
+  "evaluations": [
+    {
+      "evaluation_id": "80310f1dd83849d991901e0f4b9c7ac8",
+      "status": "error",
+      "created_at": "2026-11-07T10:32:18.696286+00:00",
+      "checklist_hash": "f0b4b69d1938a14a8079420ebabc42f3dc9833ce92a08cc584699cb2c824ee35",
+      "score": null
+    },
+    {
+      "evaluation_id": "decc5f6ccce84c2eb781141f1ef2970a",
+      "status": "needs_review",
+      "created_at": "2026-11-07T10:32:18.536138+00:00",
+      "checklist_hash": "f0b4b69d1938a14a8079420ebabc42f3dc9833ce92a08cc584699cb2c824ee35",
+      "score": null
+    },
+    {
+      "evaluation_id": "79911b37a7e943e9b7d65d573d94f0a1",
+      "status": "completed",
+      "created_at": "2026-11-07T10:32:18.311756+00:00",
+      "checklist_hash": "f0b4b69d1938a14a8079420ebabc42f3dc9833ce92a08cc584699cb2c824ee35",
+      "score": 90.0
+    }
+  ]
+}

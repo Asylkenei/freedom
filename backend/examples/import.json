@@ -1,0 +1,27 @@
+{
+  "records": [
+    {
+      "conversation_id": "synthetic-example-en",
+      "language": "EN",
+      "channel": "agent chat",
+      "audio_url": null,
+      "transcript": [
+        {
+          "timestamp": "00:01",
+          "speaker": "operator",
+          "text": "Hello."
+        },
+        {
+          "timestamp": "00:02",
+          "speaker": "client",
+          "text": "Thank you."
+        },
+        {
+          "timestamp": "00:03",
+          "speaker": "operator",
+          "text": "Anything else? Goodbye."
+        }
+      ]
+    }
+  ]
+}

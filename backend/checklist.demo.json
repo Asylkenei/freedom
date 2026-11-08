@@ -1,0 +1,77 @@
+{
+  "id": "demo-not-official",
+  "version": "1",
+  "title": "Демонстрационный чек-лист. НЕ официальный",
+  "rounding_digits": 2,
+  "criteria": [
+    {
+      "id": "greeting",
+      "title": "Приветствие оператора",
+      "instruction": "Демонстрационный лексический признак, не официальный критерий.",
+      "weight": 1,
+      "type": "binary",
+      "min_score": 0,
+      "max_score": 1,
+      "allow_na": false,
+      "requires_audio": false,
+      "rule": {
+        "mode": "regex",
+        "scope": "first_two_operator",
+        "patterns": [
+          "здравств",
+          "добрый (день|вечер)",
+          "доброе утро",
+          "сәлем",
+          "қайырлы",
+          "\\b(hello|hi|good morning|good afternoon|good evening)\\b"
+        ]
+      }
+    },
+    {
+      "id": "introduction",
+      "title": "Оператор представился",
+      "instruction": "Демонстрационный лексический признак, не официальный критерий.",
+      "weight": 1,
+      "type": "binary",
+      "min_score": 0,
+      "max_score": 1,
+      "allow_na": false,
+      "requires_audio": false,
+      "rule": {
+        "mode": "regex",
+        "scope": "first_two_operator",
+        "patterns": [
+          "меня зовут",
+          "я [А-ЯЁ][а-яё]+",
+          "менің атым",
+          "\\b(my name is|this is|i am|i'm) [A-Z]",
+          "\\[Имя скрыто\\]"
+        ]
+      }
+    },
+    {
+      "id": "closing",
+      "title": "Завершение разговора",
+      "instruction": "Демонстрационный лексический признак, не официальный критерий.",
+      "weight": 1,
+      "type": "binary",
+      "min_score": 0,
+      "max_score": 1,
+      "allow_na": false,
+      "requires_audio": false,
+      "rule": {
+        "mode": "regex",
+        "scope": "last_two_operator",
+        "patterns": [
+          "до свидания",
+          "хорошего (дня|вечера)",
+          "всего доброго",
+          "сау бол",
+          "күніңіз",
+          "кешіңіз",
+          "\\b(goodbye|bye|take care|have a (good|nice|great))\\b"
+        ]
+      }
+    }
+  ]
+}

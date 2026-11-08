@@ -1,0 +1,24 @@
+{
+  "decision": "change",
+  "reviewer": "Demo reviewer",
+  "reason": "Reviewed first reply.",
+  "replacement": {
+    "criterion_id": "c01",
+    "status": "scored",
+    "score": 0,
+    "reason": "No self-introduction in first operator reply.",
+    "checked_span": {
+      "from": "m0001",
+      "to": "m0003"
+    },
+    "na_reason": null,
+    "answer": "Да",
+    "evidence": [],
+    "knowledge_evidence": [],
+    "factual_status": "not_needed",
+    "verification_limits": [],
+    "critical_error": null
+  },
+  "expected_revision": 1,
+  "client_request_id": "synthetic-decision-1"
+}
